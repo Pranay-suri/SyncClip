@@ -1,0 +1,7 @@
+Title: SyncClip – A Cross-Platform Online Clipboard Application Using Flutter
+
+In everyday computing, sharing text, links, and code snippets between different devices—such as a smartphone and a laptop—often requires sending messages to oneself via chat apps or drafting emails.
+SyncClip is a simple, lightweight online clipboard application developed using the Flutter framework and Dart. 
+The application allows users to create temporary text rooms where content typed or pasted on one device is updated and accessible on other connected devices.
+The project focuses on clean user interface design, integration with native device clipboards for quick copy-paste operations, and basic real-time data handling.
+SyncClip provides a functional, cross-platform solution to daily text-sharing needs while demonstrating the core concepts of state management, UI widgets, and network communication in Flutter.
