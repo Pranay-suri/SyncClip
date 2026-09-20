@@ -84,7 +84,12 @@ class _SendScreenState extends State<SendScreen> {
                   icon: const Icon(Icons.send),
                   label: const Text('Send'),
                 ),
-
+                const SizedBox(height: 12),
+                const Text(
+                  'A temporary Room ID will be generated for sharing this content.',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(fontSize: 14),
+                ),
                 if (roomId != null) ...[
                   const SizedBox(height: 30),
 
