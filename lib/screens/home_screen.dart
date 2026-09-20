@@ -94,14 +94,32 @@ class HomeScreen extends StatelessWidget {
                     border: Border.all(),
                     borderRadius: BorderRadius.circular(12),
                   ),
-                  child: const Row(
+                  child: const Column(
                     children: [
-                      Icon(Icons.info_outline),
-                      SizedBox(width: 12),
-                      Expanded(
-                        child: Text(
-                          'The room owner can share content, while joined users can view and copy it.',
-                        ),
+                      Row(
+                        children: [
+                          Icon(Icons.info_outline),
+                          SizedBox(width: 12),
+                          Expanded(
+                            child: Text(
+                              'The room owner can share content, while joined users can view and copy it.',
+                            ),
+                          ),
+                        ],
+                      ),
+                      SizedBox(height: 16),
+                      Divider(),
+                      SizedBox(height: 12),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Icon(Icons.flutter_dash),
+                          SizedBox(width: 8),
+                          Text(
+                            'Built with Flutter',
+                            style: TextStyle(fontWeight: FontWeight.bold),
+                          ),
+                        ],
                       ),
                     ],
                   ),
