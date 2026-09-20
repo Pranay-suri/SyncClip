@@ -1,3 +1,4 @@
+// SyncClip room joining screen
 import 'package:flutter/material.dart';
 
 class JoinRoomScreen extends StatefulWidget {
