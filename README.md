@@ -311,3 +311,18 @@ git status
 - Before committing, check `git status` to make sure the correct files are staged.
 - Do not use `git add README.md` alone if you also need to stage other changed files; add those files separately.
 - Keep screenshots in the `screenshotsss/` folder so the README image paths continue to work.
+
+
+### Responsive Design
+
+**Laptop Responsive View**
+
+![Laptop Responsive](screenshotsss/laptop_responsive.png)
+
+**Mobile Responsive View**
+
+![Mobile Responsive](screenshotsss/mobile_responsive.png)
+
+### Responsive Design Video
+
+[Watch Responsive Design Video](screenshotsss/Responsive_video.mp4)
