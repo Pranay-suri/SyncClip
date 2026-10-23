@@ -257,3 +257,57 @@ lib/
     ├── join_room_screen.dart
     └── room_screen.dart
 ```
+
+
+## Useful Commands and What They Do
+
+### Flutter Commands
+
+| Command | What it does |
+|---|---|
+| `flutter pub get` | Downloads the dependencies required by the project. |
+| `flutter run` | Runs the Flutter app on a connected device or emulator. |
+| `flutter analyze` | Checks the code for potential errors, warnings, and style issues. |
+| `flutter test` | Runs the project's automated tests. |
+| `flutter devices` | Lists the available devices and emulators. |
+| `flutter clean` | Deletes generated build files. Run `flutter pub get` afterward before rebuilding if needed. |
+
+### Git Commands
+
+| Command | What it does |
+|---|---|
+| `git status` | Shows modified, staged, and untracked files. |
+| `git add README.md` | Stages only the README file for the next commit. |
+| `git add .` | Stages all changes in the current directory and its subdirectories. Review `git status` before using it. |
+| `git commit -m "message"` | Saves the staged changes as a local Git commit. |
+| `git push origin master` | Uploads local commits on the `master` branch to GitHub. |
+| `git pull origin master` | Downloads and integrates changes from GitHub's `master` branch. |
+| `git log --oneline` | Displays a short history of commits. |
+| `git diff` | Shows changes that have not yet been staged. |
+
+### My Usual Workflow
+
+When I make changes to SyncClip and want to save them to GitHub:
+
+```bash
+git status
+git add README.md
+git add screenshotsss/
+git status
+git commit -m "Describe my changes"
+git push origin master
+git status
+```
+
+**Remember:**
+- `git add` stages changes.
+- `git commit` saves a snapshot locally.
+- `git push` uploads committed changes to GitHub.
+- `git status` helps me check what is happening at each step.
+
+### Important Notes
+
+- Run commands from the SyncClip project folder.
+- Before committing, check `git status` to make sure the correct files are staged.
+- Do not use `git add README.md` alone if you also need to stage other changed files; add those files separately.
+- Keep screenshots in the `screenshotsss/` folder so the README image paths continue to work.
